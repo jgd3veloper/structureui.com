@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Joseph Giancola">
+	<meta name="description" content="A simple lightweight HTML, CSS, and JS library.">
+	<meta name="keywords" content="HTML, CSS, JS, Framework, Libaray, Getting Started">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Structure UI - Docs</title>
+	<!-- Cod Box Copy begin -->
+        <link href="../../assets/css/prism/prism.min.css" rel="stylesheet">
+        <link href="../../assets/css/code-box-copy/css/code-box-copy.css" rel="stylesheet">
+        <script src="../../assets/js/jquery.min.js"></script>
+        <script src="../../assets/js/prism/prism.min.js"></script>
+        <script src="../../assets/js/clipboard/clipboard.min.js"></script>
+        <script src="../../assets/js/code-box-copy/js/code-box-copy.js"></script>
+        <!-- Cod Box Copy end -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/global-styles.css">
+    <link rel="stylesheet" href="../../assets/css/doc-styles.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122301682-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-122301682-1');
+	</script>
+  </head>
+  <body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+      <h1 class="logo"><a href="http://structureui.com">Structure <span class="logo__thin">UI</span></a></h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="http://structureui.com" class="link link--dark">Home</a></li>
+        <li class="menu__item"><a href="getting-started.html" class="link link--dark">Documentation</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="doc__nav">
+        <ul>
+          <li class="selected"><a href="getting-started.html">Getting Started</a></li>
+          <li><a href="components/buttons.html">Buttons</a></li>
+        </ul>
+      </aside>
+      <article class="doc__content">
+        <section class="js-section">
+          <h3 class="btn__section__title">Get Started</h3>
+          <p>Build responsive, mobile-first projects on the web with Structure UI a simple but powerful front-end component library. Structure UI is a modern simple but powerful front-end framework making it easier for developers to develop their projects using Structure UI HTML, CSS, and JS. Get Started using Structure UI with our simple starter page.</p>
+          <h3 class="btn__section__title">Starter Template</h3>
+		  <p>Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a utf-8 and a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:</p>
+          <div class="code-box-copy">
+            <button class="code-box-copy__btn" data-clipboard-target="#starter-template" title="Copy"></button>
+            <pre><code class="language-html" id="starter-template">&lt;!-- HTML Template --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quotUTF-8&quot;&gt;
+&lt;meta name=&quotviewport&quot; content=&quotwidth=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- HTML Template End --&gt;</code></pre>
+			</div>
+			
+			<!-- Hostinger Banner Ad -->
+	  <div class="hostinger-ad">
+	  <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=12466&file_id=7" target="_blank"><img src="../../assets/img/web-banners/hosting-750x150-aff-global.png" class="img-responsive" height="180" border="0" /></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=7&aff_id=12466" width="1" height="1" />
+	  <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=12466&file_id=7" target="_blank"><img src="../../assets/img/web-banners/hosting-750x150-aff-global.png" class="img-responsive tablet"></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=7&aff_id=12466" width="1" height="1" />
+	  <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=12466&file_id=7" target="_blank"><img src="../../assets/img/web-banners/hosting-450x90-aff-global.png" class="img-responsive mobile"></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=7&aff_id=12466" width="1" height="1" />
+	  </div>
+			
+		<h3 class="btn__section__title">Meta Tags</h3>
+		<p>Structure UI is designed and developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <span class="code code--inline">&lt;head&gt;</span> section.</p>
+        <div class="code-box-copy">
+			<button class="code-box-copy__btn" data-clipboard-target="#meta-tags" title="Copy"></button>
+            <pre><code class="language-html" id="meta-tags">&lt;!-- Meta Tags --&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot; &quot;&gt;
+&lt;meta name=&quot;description&quot; content=&quot; &quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot; &quot;&gt;
+&lt;!-- Meta Tags End --&gt;</code></pre>
+			</div>
+        </section>
+      </article>
+    </div>
+
+    <!-- Begin MailChimp Signup Form -->
+	<div class="register-footer" style="width: 100%;display: flex;justify-content: center;">
+			<div id="mc_embed_signup">
+				<form action="https://firebaseapp.us12.list-manage.com/subscribe/post?u=a7e65ff91dc5aa6a3df47eacc&amp;id=296f55c7ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll" style="display: flex;flex-direction: row;justify-content: center;padding-top: 30px;">
+						<input type="email" value="" name="EMAIL" class="input margin-right email" id="mce-EMAIL" placeholder="Email Address" required="">
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;" aria-hidden="true">
+							<input type="text" name="b_b2ab6e5e22fd958eaca983667_d0980b0bde" tabindex="-1" value="">
+						</div>
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-register">
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--End mc_embed_signup-->
+    <footer class="footer">
+		© STRUCTURE UI 2018
+	</footer>
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../assets/js/default.js"></script>
+	<script>
+            $('.code-box-copy').codeBoxCopy({
+                tooltipText: 'Copied',
+                tooltipShowTime: 1000,
+                tooltipFadeInTime: 300,
+                tooltipFadeOutTime: 300
+            });
+        </script>
+  </body>
+</html>
