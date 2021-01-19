@@ -1,2 +1,2 @@
 # structureui.com
- A simple css framework for Developers to use on their projects.
+ A simple css framework for developers to use on their projects.
